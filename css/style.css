@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icono{
+    height: 150px;
+    width: 5%;
+}
+
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.imagenGris{
+    filter: grayscale(75%);
+}
+.imagenGris:hover{
+    filter: none;
+}
+.indexCero{
+    z-index: 0;
+    position: relative;
+}
+.indexUno{
+    z-index: 1;
+}
+
+
+
+/* utilizar sistema de grillas para el footer */
+
+@media all and (max-width: 767px){
+    .bannerPanaderia{
+        height: 300px;
+        object-fit: cover;
+    }
+}
